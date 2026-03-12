@@ -1,6 +1,8 @@
 # Proyecto-Integrado-GPM-IAM
 
-- Descripcion de lo que hay que hacer 
+EQUIPO COMFORMADO POR: GARY PALADINES (DESARROLLADOR NEWBIE) Y IVAN AGUILAR (DESARROLADOR PREMIUM)
+
+- Descripcion de lo que hay que hacer :)
 
 Desarrollaréis en parejas una aplicación Java completa sobre un dominio de vuestra elección. La aplicación debe tener interfaz de consola e interfaz gráfica con Swing, persistir datos en ficheros CSV y exportar a JSON, y estar construida sobre una jerarquía de clases con herencia e interfaces.
 
