@@ -2,17 +2,16 @@ package com.gpm_iam.videojuego;
 
 public class VideojuegoDigitales extends Videojuego {
     
-    int precioDigital;
+    double precioDigital;
     String tiendaDigital;
 
-    public VideojuegoDigitales(int PEGI, String consola, String genero, String nombre, int precioDigital,
-            String tiendaDigital) {
-        super(PEGI, consola, genero, nombre);
+    public VideojuegoDigitales(double precioDigital, String tiendaDigital, String nombre, String genero) {
+        super(nombre, genero);
         this.precioDigital = precioDigital;
         this.tiendaDigital = tiendaDigital;
     }
 
-    public int getPrecioDigital() {
+    public double getPrecioDigital() {
         return precioDigital;
     }
 
