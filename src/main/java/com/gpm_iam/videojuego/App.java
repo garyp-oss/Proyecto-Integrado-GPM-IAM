@@ -1,5 +1,6 @@
 package com.gpm_iam.videojuego;
 
+import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
 /**
@@ -23,10 +24,12 @@ public class App {
         GestorFicheros gestor   = new GestorFicheros();
 
         // Swing debe arrancarse siempre en el Event Dispatch Thread
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
+        SwingUtilities.invokeLater(() -> {
+            try {
                 new VentanaPrincipal(catalogo, gestor);
+            } catch (Exception e) {
+                e.printStackTrace();
+                JOptionPane.showMessageDialog(null, "Error al ejecutar :(" + e.getMessage());
             }
         });
     }

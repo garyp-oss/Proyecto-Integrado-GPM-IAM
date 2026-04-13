@@ -62,6 +62,7 @@ public class VentanaPrincipal extends JFrame {
 
         cargarDatos();
         construirVentana();
+        refrescarTabla();
         registrarWindowListener();
 
         setVisible(true);
@@ -183,7 +184,6 @@ public class VentanaPrincipal extends JFrame {
         JScrollPane scroll = new JScrollPane(tabla);
         panel.add(scroll, BorderLayout.CENTER);
 
-        refrescarTabla();
         return panel;
     }
 
