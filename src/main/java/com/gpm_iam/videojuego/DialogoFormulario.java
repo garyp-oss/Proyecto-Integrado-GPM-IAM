@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
  * <p>Construido a mano con Swing. Valida todos los campos antes de aceptar.
  * El resultado se obtiene con {@link #getResultado()} tras cerrar el diálogo.</p>
  *
- * @author Gary
+ * @author Gary, Ivan
  * @version 3.0
  * @see VentanaPrincipal
  */

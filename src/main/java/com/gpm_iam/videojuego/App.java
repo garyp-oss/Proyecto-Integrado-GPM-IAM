@@ -8,7 +8,7 @@ import javax.swing.SwingUtilities;
  *
  * <p>Arranca la interfaz gráfica Swing.</p>
  *
- * @author Gary
+ * @author Gary, Ivan
  * @version 3.0
  */
 public class App {

@@ -9,7 +9,7 @@ package com.gpm_iam.videojuego;
  * <p>Esta interfaz se diferencia de {@link Exportable} en que {@code Valorable}
  * representa la evaluación subjetiva del objeto, no su exportación.</p>
  *
- * @author Gary
+ * @author Gary, Ivan
  * @version 1.0
  * @see Exportable
  */

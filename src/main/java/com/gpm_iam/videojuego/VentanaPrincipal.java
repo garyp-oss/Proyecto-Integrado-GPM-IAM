@@ -13,12 +13,12 @@ import java.util.List;
 /**
  * Ventana principal de la aplicación GameVault.
  *
- * <p>Construida completamente a mano con Swing, sin editor visual.
+ * Construida completamente a mano con Swing, sin editor visual.
  * Contiene un {@link JTable} con {@link DefaultTableModel}, un buscador
  * con filtrado en tiempo real, botones de acción y un {@link WindowListener}
- * que pregunta si guardar al cerrar.</p>
+ * que pregunta si guardar al cerrar.
  *
- * @author Gary
+ * @author Gary, Ivan
  * @version 3.0
  */
 public class VentanaPrincipal extends JFrame {

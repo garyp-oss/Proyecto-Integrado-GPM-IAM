@@ -6,7 +6,7 @@ package com.gpm_iam.videojuego;
  * <p>Extiende {@link Videojuego} e implementa {@link Valorable}, ya que los
  * juegos físicos pueden tener una valoración de su estado y puntuación.</p>
  *
- * @author Gary
+ * @author Gary, Ivan
  * @version 1.0
  * @see Videojuego
  * @see Valorable

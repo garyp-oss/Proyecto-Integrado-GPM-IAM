@@ -1,9 +1,15 @@
 package com.gpm_iam.videojuego;
 
 import java.io.IOException;
-import java.util.*;
-import java.util.regex.*;
-import java.util.stream.*;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.OptionalDouble;
+import java.util.Scanner;
+import java.util.regex.Pattern;
+import java.util.regex.PatternSyntaxException;
+import java.util.stream.Collectors;
 
 /**
  * Menú interactivo de consola para gestionar el catálogo GameVault.
@@ -18,7 +24,7 @@ import java.util.stream.*;
  *   <li>Lectura/escritura de CSV y exportación a JSON mediante {@link GestorFicheros}.</li>
  * </ul>
  *
- * @author Gary
+ * @author Gary, Ivan
  * @version 1.0
  */
 public class MenuConsola {

@@ -6,7 +6,7 @@ package com.gpm_iam.videojuego;
  *
  * <p>Contiene atributos comunes como nombre, género, PEGI, consola y etiquetas.</p>
  *
- * @author Gary
+ * @author Gary, Ivan
  * @version 1.0
  */
 public abstract class Videojuego {

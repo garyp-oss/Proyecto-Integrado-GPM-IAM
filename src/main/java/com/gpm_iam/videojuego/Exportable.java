@@ -9,7 +9,7 @@ package com.gpm_iam.videojuego;
  * <p>Esta interfaz se diferencia de {@link Valorable} en que {@code Exportable}
  * trata la representación externa del objeto, no su evaluación.</p>
  *
- * @author Gary
+ * @author Gary, Ivan
  * @version 1.0
  * @see Valorable
  */

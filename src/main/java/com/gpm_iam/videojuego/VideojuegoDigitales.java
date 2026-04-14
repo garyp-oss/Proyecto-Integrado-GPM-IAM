@@ -6,7 +6,7 @@ package com.gpm_iam.videojuego;
  * <p>Extiende {@link Videojuego} e implementa {@link Exportable}, ya que los
  * juegos digitales pueden exportarse con su enlace de descarga.</p>
  *
- * @author Gary
+ * @author Gary, Ivan
  * @version 1.0
  * @see Videojuego
  * @see Exportable

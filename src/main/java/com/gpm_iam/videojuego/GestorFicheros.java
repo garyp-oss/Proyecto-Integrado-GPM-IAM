@@ -1,6 +1,12 @@
 package com.gpm_iam.videojuego;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.RandomAccessFile;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,7 +24,7 @@ import java.util.List;
  * <pre>tipo;nombre;genero;pegi;consola;etiquetas;precio;tiendaODatos;segundaMano;valoracion</pre>
  * <p>Para juegos digitales, {@code segundaMano} y {@code valoracion} se guardan como {@code -} y {@code 0.0}.</p>
  *
- * @author Gary
+ * @author Gary, Ivan
  * @version 1.0
  */
 public class GestorFicheros {
